@@ -1,0 +1,11 @@
+{
+  "tool":"cli-diagnostics",
+  "version":"1.1.0",
+  "checks":[
+    {"name":"python","version":"3.x.x","executable":"python","ok":true},
+    {"name":"disk","path":".","free_gb":10.0,"ok":true},
+    {"name":"environment","variables":{"PATH":"<example>"},"ok":true},
+    {"name":"developer_tools","tools":{"git":true,"pip":true,"pytest":true,"python":true},"ok":true}
+  ],
+  "status":"PASS"
+}
