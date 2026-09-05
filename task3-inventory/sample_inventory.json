@@ -1,0 +1,17 @@
+[
+  {
+    "product_id": "P1",
+    "name": "Pen",
+    "quantity": 50,
+    "price": 10.0,
+    "type": "Product"
+  },
+  {
+    "product_id": "P2",
+    "name": "Milk",
+    "quantity": 20,
+    "price": 30.0,
+    "type": "PerishableProduct",
+    "expiry_date": "2026-12-31"
+  }
+]
