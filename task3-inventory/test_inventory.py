@@ -5,8 +5,8 @@ from .exceptions import (
     InvalidProductError,
     ProductNotFoundError,
 )
-from .models import PerishableProduct, Product
-from .engine import Inventory
+from models import PerishableProduct, Product
+from engine import Inventory
 
 
 def test_product():
