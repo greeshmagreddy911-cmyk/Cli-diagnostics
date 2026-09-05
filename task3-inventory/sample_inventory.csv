@@ -1,0 +1,3 @@
+product_id,name,quantity,price,type,expiry_date
+P1,Pen,50,10.0,Product,
+P2,Milk,20,30.0,PerishableProduct,2026-12-31
