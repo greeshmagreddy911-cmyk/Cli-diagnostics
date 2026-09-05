@@ -10,7 +10,7 @@ class Product:
 
     def __post_init__(self):
         if not self.product_id.strip() or not self.name.strip():
-            from .exceptions import InvalidProductError
+            from exceptions import InvalidProductError
             raise InvalidProductError("Product ID and name are required.")
 
         self.quantity = self._quantity
@@ -22,7 +22,7 @@ class Product:
 
     @quantity.setter
     def quantity(self, value):
-        from .exceptions import InvalidProductError
+        from exceptions import InvalidProductError
 
         if not isinstance(value, int) or isinstance(value, bool) or value < 0:
             raise InvalidProductError(
@@ -37,7 +37,7 @@ class Product:
 
     @price.setter
     def price(self, value):
-        from .exceptions import InvalidProductError
+        from exceptions import InvalidProductError
 
         if not isinstance(value, (int, float)) or isinstance(value, bool) or value < 0:
             raise InvalidProductError(
