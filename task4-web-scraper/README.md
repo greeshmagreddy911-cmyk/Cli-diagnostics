@@ -2,12 +2,18 @@
 
 Python Software Engineering Internship – Task 4.
 
-This project demonstrates an automated web scraping pipeline using Requests and BeautifulSoup.
+## Features
 
-Features:
-- Custom HTTP headers
+- Requests-based web scraping
+- BeautifulSoup HTML parsing
+- Custom User-Agent headers
+- Retry logic for temporary HTTP failures
 - Rate limiting between requests
-- Retry logic for temporary request failures
-- HTML parsing with BeautifulSoup
-- Structured CSV output
-- Automated summary statistics
+- CSV data extraction
+- Summary statistics
+- Automated test
+
+## Installation
+
+```bash
+pip install -r requirements.txt
