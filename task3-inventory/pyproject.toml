@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "inventory-management-engine"
+version = "1.0.0"
+description = "Object-oriented inventory management engine"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+test = [
+    "pytest>=8",
+    "pytest-cov>=5"
+]
+
+[tool.pytest.ini_options]
+testpaths = ["."]
+addopts = "-q"
